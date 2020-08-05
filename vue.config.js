@@ -1,6 +1,6 @@
 module.exports = {
-	"transpileDependencies": [
-		"vuetify"
-	],
-	publicPath: '/vue-social/'
+  "transpileDependencies": [
+    "vuetify"
+  ],
+  publicPath: '/vue-whatsapp/'
 }

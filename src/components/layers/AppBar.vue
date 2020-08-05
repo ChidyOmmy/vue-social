@@ -4,6 +4,7 @@
 			color="info"
 			dark
 			fixed
+			app
 			prominent
 			shrink-on-scroll
 			>

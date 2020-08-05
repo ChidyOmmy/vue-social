@@ -1,19 +1,21 @@
 <template>
-	<v-app>
-		<v-content>
-			<router-view></router-view>
-		</v-content>
-	</v-app>
+  <v-app>
+    <v-content>
+      <v-fade-transition hide-on-leave leave-absolute>
+        <router-view></router-view>
+      </v-fade-transition>
+    </v-content>
+  </v-app>
 </template>
 
 <script>
-	export default {
-		name: 'App',
+  export default {
+    name: 'App',
 
-		components: {},
+    components: {},
 
-		data: () => ({
-			//
-		}),
-	};
-	</script>
+    data: () => ({
+      //
+    }),
+  };
+  </script>
